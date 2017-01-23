@@ -1,5 +1,6 @@
 # HeyYellowPages
-HeyYellow is a twitter bot that sends out cool advices to the #askYP.
+HeyYellow is a twitter bot that sends out cool advice in response to #askYP. The response contains the closest business
+matching the query of the user, based on the tweet's location.
 
 ## by Git-me-outta-here
 This project was made as part of the ConUHacks2017 Hackathon by Git-me-outta-here, team composed of the following members:
@@ -15,7 +16,7 @@ a particular #(askYP) and respond to them with useful proposals, using their Pla
 ## What it does
 The bot listens for a hashtag and answers user questions using Azure and Yellow Pages' Places API. If it finds
 a related business within the Places API, it will answer with the business name, the URL to find the address
-(and much more) and even the business hours if they're set.
+(and much more) and even the business hours, when they are available.
 
 ## How we built it
 We divided the tasks into two groups; the main infrastructure and the yellow pages API.
@@ -28,6 +29,10 @@ The bot works!
 
 ## What we learned
 Yellow Pages API, Azure natural language processing
+
+## Awards
+This bot won first place for the Microsoft API Challenge for it's use of the Microsoft Azure API.
+We were also runners up for the YellowPages API Challenge for it's use of the YellowPages Internal Search API.
 
 ## What's next for HeyYellow
 We are not sure yet.
